@@ -1,0 +1,18 @@
+.benefits-section {
+  background-color: $gray;
+  padding: 50px 0;
+}
+
+.benefits {
+  &__title {
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+
+    @media (min-width: $breakpoint-xs) {
+    margin-bottom: 50px;
+
+    }
+  }
+}

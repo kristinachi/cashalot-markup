@@ -1,0 +1,75 @@
+.footer-section {
+  padding: 20px 0;
+
+  @media (min-width: $breakpoint-xs) {
+    padding: 50px 0;
+  }
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+
+  > div {
+    padding: 0 15px;
+  }
+}
+
+.footer-main {
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media (min-width: $breakpoint-xs)  {
+    width: 25%;
+    margin-bottom: 0;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+}
+
+.footer-col {
+  width: 100%;
+  margin-bottom: 20px;
+  
+  @media (min-width: $breakpoint-xs) {
+  margin-bottom: 0;
+  width: auto;
+
+
+  }
+}
+
+.footer-nav {
+  &__title {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba($white, 0.5);
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: rgba($white, 0.25);
+
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.footer-bottom {
+  color: $gray-4;
+  font-size: 14px;
+  line-height: 16px;
+
+  a {
+    color: $gray-4;
+  }
+}
